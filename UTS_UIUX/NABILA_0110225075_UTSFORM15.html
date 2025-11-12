@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Registrasi Tempat Rekreasi Wisata</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    
+  </style>
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>Form Registrasi Tempat Rekreasi Wisata</h2>
+
+    <form action="#" method="post">
+      <label for="nama">Nama Tempat Wisata</label>
+      <input type="text" id="nama" name="nama_tempat" required>
+
+      <label for="jenis">Jenis Wisata</label>
+      <select id="jenis" name="jenis_wisata" required>
+        <option value="taman">Taman</option>
+        <option value="pantai">Pantai</option>
+        <option value="gunung">Gunung</option>
+        <option value="sejarah">Sejarah</option>
+        <option value="kuliner">Kuliner</option>
+      </select>
+
+      <label for="deskripsi">Deskripsi Wisata</label>
+      <textarea id="deskripsi" name="deskripsi_wisata"></textarea>
+
+      <label for="kontak">Kontak Person</label>
+      <input type="text" id="kontak" name="kontak_person">
+
+      <label for="telp">No HP/Telpon</label>
+      <input type="text" id="telp" name="no_hp">
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email">
+
+      <label for="web">Alamat Web</label>
+      <input type="text" id="web" name="alamat_web" value="http://">
+
+      <label for="alamat">Alamat Lengkap</label>
+      <input type="text" id="alamat" name="alamat_lengkap">
+
+      <label for="koordinat">Latitude, Longitude</label>
+      <input type="text" id="koordinat" name="koordinat">
+
+      <div class="button-group">
+        <button type="submit">Daftar</button>
+        <button type="reset">Batal</button>
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>
